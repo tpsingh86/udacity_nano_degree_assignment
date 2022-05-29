@@ -7,3 +7,6 @@ Download Atom or another text editor that allows you to preview markdown files. 
 See the next few pages for detailed instructions on the tasks you need to set up and edit your repository. Remember, as you complete these tasks, you should be copying and pasting the git commands you use into the submission template.
 
 Add further details to include analyses on the input data.
+
+
+Bikeshare code successfully runs and include all details requested in the project
