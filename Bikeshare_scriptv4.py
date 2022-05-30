@@ -202,6 +202,7 @@ def trip_duration_stats(df):
 
 
     total_duration = df['Trip Duration'].sum()
+    """ creating the new variable to compute the stats for the total trip duration for each rental"""
    
     minute, second = divmod(total_duration, 60)
    
