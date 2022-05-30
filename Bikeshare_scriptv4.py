@@ -259,7 +259,7 @@ def user_stats(df):
         common_year = int(df['Birth Year'].mode()[0])
         print(f"\nThe earliest year of birth: {earliest}\n\nThe most recent year of birth: {recent}\n\nThe most common year of birth: {common_year}")
     except:
-        print("There are no birth year details in this file.")
+        print("There are no birth year details per your inputs in this file.")
 
     print(f"\nThis took {(time.time() - start_time)} seconds.")
     print('-'*80)
