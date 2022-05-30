@@ -259,7 +259,7 @@ def user_stats(df):
         common_year = int(df['Birth Year'].mode()[0])
         print(f"\nThe earliest year of birth: {earliest}\n\nThe most recent year of birth: {recent}\n\nThe most common year of birth: {common_year}")
     except:
-        print("There are no birth year details in this file.")
+        print("There are no birth year details per your inputs in this file.")
 
     print(f"\nThis took {(time.time() - start_time)} seconds.")
     print('-'*80)
@@ -287,6 +287,7 @@ def display_data(df):
         elif rdata not in BIN_RESPONSE_LIST:
             print("\nPlease check your input.")
             print("Input does not seem to match any of the accepted responses.")
+            print("make appropriate choices for the inputs again.")
             print("\nRestarting...\n")
 
     #Extra while loop here to ask user if they want to continue viewing data
