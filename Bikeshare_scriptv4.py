@@ -19,6 +19,8 @@ sCITY_DATA = { 'chicago': r'/Users/keeratkaur/Downloads/all-project-files/chicag
               'new york city': r'/Users/keeratkaur/Downloads/all-project-files/new_york_city.csv', 'washington': r'/Users/keeratkaur/Downloads/all-project-files/washington.csv',
              'Washington': r'/Users/keeratkaur/Downloads/all-project-files/washington.csv' }
 
+""" providing path to all data file saved on my local drive"""
+
 
 
 #Function to figure out the filtering requirements of the user
@@ -64,6 +66,7 @@ def get_filters():
             print("\nRestarting...")
 
     print(f"\nYou have chosen {smonth.title()} as your month.")
+    """ adding month details to compute stats regarding each month from January to June"""
 
     
     sDAY_LIST = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
@@ -202,6 +205,7 @@ def trip_duration_stats(df):
 
 
     total_duration = df['Trip Duration'].sum()
+    """ creating the new variable to compute the stats for the total trip duration for each rental"""
    
     minute, second = divmod(total_duration, 60)
    
@@ -283,6 +287,7 @@ def display_data(df):
         elif rdata not in BIN_RESPONSE_LIST:
             print("\nPlease check your input.")
             print("Input does not seem to match any of the accepted responses.")
+            print("make appropriate choices for the inputs again.")
             print("\nRestarting...\n")
 
     #Extra while loop here to ask user if they want to continue viewing data
