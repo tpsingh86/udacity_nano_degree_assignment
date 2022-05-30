@@ -19,6 +19,8 @@ sCITY_DATA = { 'chicago': r'/Users/keeratkaur/Downloads/all-project-files/chicag
               'new york city': r'/Users/keeratkaur/Downloads/all-project-files/new_york_city.csv', 'washington': r'/Users/keeratkaur/Downloads/all-project-files/washington.csv',
              'Washington': r'/Users/keeratkaur/Downloads/all-project-files/washington.csv' }
 
+""" providing path to all data file saved on my local drive"""
+
 
 
 #Function to figure out the filtering requirements of the user
