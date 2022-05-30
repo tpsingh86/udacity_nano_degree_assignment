@@ -66,6 +66,7 @@ def get_filters():
             print("\nRestarting...")
 
     print(f"\nYou have chosen {smonth.title()} as your month.")
+    """ adding month details to compute stats regarding each month from January to June"""
 
     
     sDAY_LIST = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
